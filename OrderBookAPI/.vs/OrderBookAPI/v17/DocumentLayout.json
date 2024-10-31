@@ -1,54 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\data\\orderbookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:data\\orderbookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\orderbookapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:orderbookapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\migrations\\20241025082208_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:migrations\\20241025082208_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\migrations\\orderbookdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:migrations\\orderbookdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\migrations\\20240829122431_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:migrations\\20240829122431_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\data\\orderbookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:data\\orderbookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\orderbookapi\\migrations\\20240905091402_berit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:migrations\\20240905091402_berit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\majussmykker\\orderbookapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B2B078B-BB21-4301-8754-06B09C3A91C8}|OrderBookAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,73 +97,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240905091402_Berit.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Migrations\\20240905091402_Berit.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240905091402_Berit.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Migrations\\20240905091402_Berit.cs",
-              "RelativeToolTip": "Migrations\\20240905091402_Berit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "20241025082208_initialmigration.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Migrations\\20241025082208_initialmigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241025082208_initialmigration.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Migrations\\20241025082208_initialmigration.cs",
+              "RelativeToolTip": "Migrations\\20241025082208_initialmigration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:14:02.496Z"
+              "WhenOpened": "2024-10-25T08:22:08.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240829122431_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Migrations\\20240829122431_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240829122431_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Migrations\\20240829122431_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240829122431_InitialCreate.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAE8AAABCAAAA",
+              "DocumentIndex": 6,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "Models\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\SeedData.cs",
+              "RelativeToolTip": "Models\\SeedData.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwDEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:24:32.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:22:15.504Z"
+              "WhenOpened": "2024-10-25T08:11:29.96Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAAAAAAAA",
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:13:01.195Z",
+              "WhenOpened": "2024-10-25T07:46:07.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-29T12:04:58.226Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:13:01.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "Models\\ApplicationUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -148,79 +158,157 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "OrderBookDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Data\\OrderBookDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Data\\OrderBookDBContext.cs",
               "RelativeDocumentMoniker": "Data\\OrderBookDBContext.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Data\\OrderBookDBContext.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Data\\OrderBookDBContext.cs",
               "RelativeToolTip": "Data\\OrderBookDBContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T11:48:47.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T11:48:47.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T11:48:47.03Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-29T12:04:58.226Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwC4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T11:48:47.007Z",
-              "EditorCaption": ""
+              "Title": "OrderBookAPI.http",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\OrderBookAPI.http",
+              "RelativeDocumentMoniker": "OrderBookAPI.http",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\OrderBookAPI.http",
+              "RelativeToolTip": "OrderBookAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-12T10:57:47.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderBookDBContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Migrations\\OrderBookDBContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\OrderBookDBContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Migrations\\OrderBookDBContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\OrderBookDBContextModelSnapshot.cs",
+              "DocumentIndex": 8,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\RegisterDTO.cs",
+              "RelativeToolTip": "Models\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T07:47:38.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "Models\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T07:47:06.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:50:19.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:29:45.977Z"
+              "WhenOpened": "2024-08-29T12:22:15.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\OrderDTO.cs",
-              "RelativeDocumentMoniker": "Models\\OrderDTO.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\OrderDTO.cs",
-              "RelativeToolTip": "Models\\OrderDTO.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwB8AAAAoAAAA",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T11:48:46.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T10:50:56.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T11:48:47.03Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T11:48:47.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAALYSAAAAAAAAAAArwMUSAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-12T11:02:32.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Type.cs",
-              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\Type.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Type.cs",
               "RelativeDocumentMoniker": "Models\\Type.cs",
-              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\Models\\Type.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\Type.cs",
               "RelativeToolTip": "Models\\Type.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T11:48:45.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\Models\\OrderDTO.cs",
+              "RelativeToolTip": "Models\\OrderDTO.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T11:48:46.963Z"
             }
           ]
         }

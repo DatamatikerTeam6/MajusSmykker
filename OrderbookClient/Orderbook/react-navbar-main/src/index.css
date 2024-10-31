@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+
+@layer base {
+:root {
+/* ------Color variables------*/
+--black_900: #000000;
+--cyan_100: #baeaf4;
+--gray_900: #1e1e1e;
+--white_a700: #ffffff;
+/*------Border radius variables------*/
+--radius-xs: 4px;
+}
+}

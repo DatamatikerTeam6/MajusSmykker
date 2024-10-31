@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\OrderBookAPI.csproj": {}
+    "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\OrderBookAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\OrderBookAPI.csproj": {
+    "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\OrderBookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\OrderBookAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\OrderBookAPI.csproj",
         "projectName": "OrderBookAPI",
-        "projectPath": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\OrderBookAPI.csproj",
+        "projectPath": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\OrderBookAPI.csproj",
         "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\OrderBookAPI\\obj\\",
+        "outputPath": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"

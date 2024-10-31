@@ -29,7 +29,7 @@ namespace OrderBookAPI.Controllers
                 {
                     OrderID = orderDTO.OrderID,
                     Price = orderDTO.Price,
-                    Name = orderDTO.Name,
+                    nameOrder = orderDTO.Name,
                     Type = orderDTO.Type,
                     DeliveryDate = orderDTO.DeliveryDate,
                     OrderDate = orderDTO.OrderDate,

@@ -13,12 +13,14 @@ namespace OrderBookAPI.Data
 
         // Database tables
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Order> Customers { get; set; }
 
-        // Database tablenames
+        // Override database tablenames
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Order>().ToTable("Order");
+            modelBuilder.Entity<Customer>().ToTable("Customer");
         }
     }
 }
