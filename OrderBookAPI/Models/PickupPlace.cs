@@ -1,9 +1,16 @@
-﻿namespace OrderBookAPI.Models
+﻿using System.ComponentModel;
+
+namespace OrderBookAPI.Models
 {
     public enum PickupPlace
     {
-        Butik = 0, 
-        Hjemme = 1, 
+        [Description("Butik (Store)")]
+        Butik = 0,
+
+        [Description("Hjemme (Home)")]
+        Hjemme = 1,
+
+        [Description("Post (Post Office)")]
         Post = 2
     }
 }

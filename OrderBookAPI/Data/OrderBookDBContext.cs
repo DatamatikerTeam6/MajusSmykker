@@ -13,7 +13,9 @@ namespace OrderBookAPI.Data
 
         // Database tables
         public DbSet<Order> Orders { get; set; }
-        public DbSet<Order> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+     
+
 
         // Override database tablenames
         protected override void OnModelCreating(ModelBuilder modelBuilder)

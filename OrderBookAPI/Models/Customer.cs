@@ -8,7 +8,6 @@
         public string Email { get; set; }
         public string Note { get; set; }
         public string NameCustomer { get; set; }
-        public int Ringsize { get; set; }
         public bool ActiveCustomer { get; set; }  
     }
 }

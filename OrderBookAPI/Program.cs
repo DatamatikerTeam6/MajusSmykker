@@ -5,6 +5,7 @@ using OrderBookAPI.Data;
 using OrderBookAPI.Models;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using OrderBookAPI.Services;
 
 namespace OrderBookAPI
 {
@@ -28,6 +29,8 @@ namespace OrderBookAPI
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            // Registrer EncodingService som en singleton
+            builder.Services.AddSingleton<EncodingService>();
 
             // Add CORS
             builder.Services.AddCors(options =>
