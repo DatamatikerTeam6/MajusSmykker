@@ -6,7 +6,6 @@ using OrderBookAPI.Models;
 
 namespace OrderBookAPI.Controllers
 {
-
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase
@@ -38,7 +37,7 @@ namespace OrderBookAPI.Controllers
             }
             else { return BadRequest(); }
         }
-
+        
         [HttpGet("numberofspaces")]
         public async Task<IActionResult> GetNumberofSpaces()
         {

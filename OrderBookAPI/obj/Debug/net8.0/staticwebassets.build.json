@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "ipAQRKmBonYrj4EryWN8AagpmSNieSGGVAUm3cG3kxk=",
+  "Hash": "212LMD5hNrXMdPY7meTkiX+IU+4TiCPnxZUCkMxYBcU=",
   "Source": "OrderBookAPI",
   "BasePath": "_content/OrderBookAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "OrderBookAPI\\wwwroot",
+      "Source": "OrderBookAPI",
+      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
+      "BasePath": "_content/OrderBookAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\mink.png",
+      "SourceId": "OrderBookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
+      "BasePath": "_content/OrderBookAPI",
+      "RelativePath": "images/mink.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mink.png"
+    }
+  ]
 }

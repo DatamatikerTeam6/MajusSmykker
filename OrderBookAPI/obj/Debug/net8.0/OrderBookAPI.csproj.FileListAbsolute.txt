@@ -290,3 +290,4 @@ C:\Users\Justin\Datamatiker\Programmering\Kode\MajusSmykker\OrderBookAPI\bin\Deb
 C:\Users\Justin\Datamatiker\Programmering\Kode\MajusSmykker\OrderBookAPI\bin\Debug\net8.0\AngleSharp.dll
 C:\Users\Justin\Datamatiker\Programmering\Kode\MajusSmykker\OrderBookAPI\bin\Debug\net8.0\AngleSharp.Css.dll
 C:\Users\Justin\Datamatiker\Programmering\Kode\MajusSmykker\OrderBookAPI\bin\Debug\net8.0\HtmlSanitizer.dll
+C:\Users\Justin\Datamatiker\Programmering\Kode\MajusSmykker\OrderBookAPI\bin\Debug\net8.0\OrderBookAPI.staticwebassets.runtime.json

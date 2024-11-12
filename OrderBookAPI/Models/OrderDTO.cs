@@ -49,10 +49,7 @@ namespace OrderBookAPI.Models
 
         [JsonPropertyName("delivered")]
         public bool Delivered { get; set; }
-
-        [JsonPropertyName("image")]
-        [Url(ErrorMessage = "Invalid image URL.")]
-        public string Image { get; set; }
+ 
 
         [JsonPropertyName("customerid")]
         [Required(ErrorMessage = "Customer ID is required.")]

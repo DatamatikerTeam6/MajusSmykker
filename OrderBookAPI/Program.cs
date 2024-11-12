@@ -46,7 +46,6 @@ namespace OrderBookAPI
                     });
             });
 
-
             // Add authentication services (JWT Bearer)
             builder.Services.AddAuthentication(options =>
             {
