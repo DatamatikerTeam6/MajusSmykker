@@ -54,5 +54,8 @@ namespace OrderBookAPI.Models
         [JsonPropertyName("customerid")]
         [Required(ErrorMessage = "Customer ID is required.")]
         public int CustomerID { get; set; }
+
+        [JsonPropertyName("image")]
+        public string? Image { get; set; }
     }
 }

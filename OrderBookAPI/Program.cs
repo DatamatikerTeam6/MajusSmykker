@@ -6,6 +6,7 @@ using OrderBookAPI.Models;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using OrderBookAPI.Services;
+using Microsoft.Extensions.FileProviders;
 
 namespace OrderBookAPI
 {
@@ -90,6 +91,20 @@ namespace OrderBookAPI
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            // Henter miljøet
+            var env = builder.Environment;
+
+            // Aktiverer statisk filservering
+            app.UseStaticFiles();
+
+            // Tilføj filservering for `images`-mappen i `wwwroot`
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(env.WebRootPath, "images")),
+                RequestPath = "/images"
+            });
 
             app.UseHttpsRedirection();
 

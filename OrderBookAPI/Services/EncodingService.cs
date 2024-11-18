@@ -9,6 +9,8 @@ namespace OrderBookAPI.Services
         {
             string encodedInput = HttpUtility.UrlEncodeUnicode(input);
             encodedInput = encodedInput.Replace("%20", " ");  // Erstat %20 med mellemrum
+
+            encodedInput = encodedInput.Replace("&#230", "æ");
             return encodedInput;
         }
 
