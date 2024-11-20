@@ -42,14 +42,18 @@ namespace OrderBookAPI.Controllers
             else { return BadRequest(); }
         }
         
-        [HttpGet("numberofspaces")]
-        public async Task<IActionResult> GetNumberofSpaces()
+        [HttpGet("GetLastCustomerID")]
+        public async Task<IActionResult> GetLastCustomerID()
         {
-            // Count the number of customers in the database
-            int count = await _context.Customers.CountAsync();
+            // Find det senest oprettede ID
+            var lastCreatedId = await _context.Customers
+                .OrderByDescending(c => c.CustomerID) // Sorter efter ID i faldende rækkefølge
+                .Select(c => c.CustomerID) // Vælg kun ID
+                .FirstOrDefaultAsync(); // Tag den første eller standardværdi  
 
-            // Return the count as JSON
-            return Ok(new { count });
+            var lastCreatedIdPlusOne = lastCreatedId += 1;
+            // Returnér det fundne ID som JSON
+            return Ok(new { lastCreatedIdPlusOne });
         }
               
 
@@ -89,7 +93,8 @@ namespace OrderBookAPI.Controllers
                     Address = _encodingService.HtmlEncode(customer.Address),
                     Email = _encodingService.HtmlEncode(customer.Email),
                     CustomerNote = _encodingService.HtmlEncode(customer.Note),
-                    NameCustomer = _encodingService.HtmlEncode(customer.NameCustomer)
+                    NameCustomer = _encodingService.HtmlEncode(customer.NameCustomer),
+                    CustomerID = customer.CustomerID
                 })
                 .ToListAsync();
 

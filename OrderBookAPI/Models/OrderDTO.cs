@@ -49,7 +49,7 @@ namespace OrderBookAPI.Models
 
         [JsonPropertyName("delivered")]
         public bool Delivered { get; set; }
- 
+
 
         [JsonPropertyName("customerid")]
         [Required(ErrorMessage = "Customer ID is required.")]
@@ -57,5 +57,12 @@ namespace OrderBookAPI.Models
 
         [JsonPropertyName("image")]
         public string? Image { get; set; }
+
+        [JsonPropertyName("deliveryTime")]        
+        public TimeSpan? DeliveryTime {get; set;}
+
+        [JsonPropertyName("orderid")]
+        [Required(ErrorMessage = "OrderID is required.")]
+        public int OrderID { get; set; }
     }
 }

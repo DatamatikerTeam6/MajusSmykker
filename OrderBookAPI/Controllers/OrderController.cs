@@ -75,7 +75,8 @@ namespace OrderBookAPI.Controllers
                     PickupPlaceAsString = orderDTO.PickupPlace.ToString(),
                     Delivered = orderDTO.Delivered,
                     Image = imageUrl,  // Store the image URL
-                    CustomerID = orderDTO.CustomerID
+                    CustomerID = orderDTO.CustomerID,
+                    DeliveryTime = orderDTO.DeliveryTime
                 };
 
 
@@ -110,7 +111,9 @@ namespace OrderBookAPI.Controllers
                     PickupPlace = order.PickupPlace,
                     Delivered = order.Delivered,
                     Image = _encodingService.HtmlEncode(order.Image),  // Sanitize Image
-                    CustomerID = order.CustomerID
+                    CustomerID = order.CustomerID,
+                    DeliveryTime = order.DeliveryTime,
+                    OrderID = order.OrderID 
                 })
                 .ToListAsync();
 
@@ -186,14 +189,14 @@ namespace OrderBookAPI.Controllers
 
         // PUT: Update order
         [HttpPut("UpdateOrder")]
-        public async Task<IActionResult> UpdateOrder([FromForm] string name, [FromForm] OrderDTO orderDTO, [FromForm] List<IFormFile> files)
+        public async Task<IActionResult> UpdateOrder([FromForm] int orderid, [FromForm] OrderDTO orderDTO, [FromForm] List<IFormFile> files)
         {
-            if (name == null)
+            if (orderid == null)
             {
                 return BadRequest("Order name must be provided.");
             }
 
-            var order = await _context.Orders.FirstOrDefaultAsync(o => o.nameOrder == name);
+            var order = await _context.Orders.FirstOrDefaultAsync(o => o.OrderID== orderid);
 
             if (order == null)
             {

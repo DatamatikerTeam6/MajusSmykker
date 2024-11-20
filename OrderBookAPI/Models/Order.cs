@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace OrderBookAPI.Models
 {
@@ -16,7 +17,8 @@ namespace OrderBookAPI.Models
         public string PickupPlaceAsString { get; set; }
         public bool Delivered { get; set; }
         public string Image { get; set; }
-        public Status Status { get; set; }
+        public Status Status { get; set; }    
+        public TimeSpan? DeliveryTime {get; set;}
         public int CustomerID { get; set; }
 
 

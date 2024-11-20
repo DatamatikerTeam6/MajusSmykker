@@ -12,7 +12,7 @@ using OrderBookAPI.Data;
 namespace OrderBookAPI.Migrations
 {
     [DbContext(typeof(OrderBookDBContext))]
-    [Migration("20241107102656_mink")]
+    [Migration("20241119084213_mink")]
     partial class mink
     {
         /// <inheritdoc />
@@ -225,11 +225,11 @@ namespace OrderBookAPI.Migrations
 
             modelBuilder.Entity("OrderBookAPI.Models.Customer", b =>
                 {
-                    b.Property<int>("CustomerID")
+                    b.Property<int?>("CustomerID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("CustomerID"));
 
                     b.Property<bool>("ActiveCustomer")
                         .HasColumnType("bit");
@@ -274,6 +274,9 @@ namespace OrderBookAPI.Migrations
 
                     b.Property<DateTime>("DeliveryDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<TimeOnly>("DeliveryTime")
+                        .HasColumnType("time");
 
                     b.Property<string>("Image")
                         .IsRequired()

@@ -11,16 +11,6 @@ namespace OrderBookAPI.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            
-
-
-            
-
-
-
-           
-
-
             migrationBuilder.CreateTable(
                 name: "Order",
                 columns: table => new
@@ -39,6 +29,7 @@ namespace OrderBookAPI.Migrations
                     Delivered = table.Column<bool>(type: "bit", nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
+                    DeliveryTime = table.Column<TimeOnly>(type: "time", nullable: false),
                     CustomerID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -50,12 +41,8 @@ namespace OrderBookAPI.Migrations
                         principalTable: "Customer",
                         principalColumn: "CustomerID",
                         onDelete: ReferentialAction.Cascade);
-                });
+                });                                
 
-           
-
-
-       
 
             migrationBuilder.CreateIndex(
                 name: "IX_Order_CustomerID",

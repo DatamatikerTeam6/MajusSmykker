@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GKAqbXxgE+ywJgGnGLS82qEReNul3wQttbHjmO7rdsw=",
+  "Hash": "rgGiDoA7OkZQjhhdMa7b/6KodHrTWMhxwUuz0piKHA8=",
   "Source": "OrderBookAPI",
   "BasePath": "_content/OrderBookAPI",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Glade svin.png"
+    },
+    {
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\LillePer.png",
+      "SourceId": "OrderBookAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
+      "BasePath": "_content/OrderBookAPI",
+      "RelativePath": "images/LillePer.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\LillePer.png"
     },
     {
       "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\MIn ko.png",
