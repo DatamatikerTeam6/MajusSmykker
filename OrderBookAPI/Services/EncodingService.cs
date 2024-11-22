@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System.Text.Unicode;
+using System.Web;
 
 namespace OrderBookAPI.Services
 {
@@ -9,8 +10,14 @@ namespace OrderBookAPI.Services
         {
             string encodedInput = HttpUtility.UrlEncodeUnicode(input);
             encodedInput = encodedInput.Replace("%20", " ");  // Erstat %20 med mellemrum
-
             encodedInput = encodedInput.Replace("&#230", "æ");
+            encodedInput = encodedInput.Replace("%u00e6", "æ");
+            encodedInput = encodedInput.Replace("%u00c5", "å");
+            encodedInput = encodedInput.Replace("%u00e5", "å");
+            encodedInput = encodedInput.Replace("+", " ");
+            encodedInput = encodedInput.Replace("%u00f8", "ø");
+            encodedInput = encodedInput.Replace("%u00d8", "Ø");
+            encodedInput = encodedInput.Replace("%2c", ",");
             return encodedInput;
         }
 

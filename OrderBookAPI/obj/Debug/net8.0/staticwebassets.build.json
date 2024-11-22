@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rgGiDoA7OkZQjhhdMa7b/6KodHrTWMhxwUuz0piKHA8=",
+  "Hash": "9oMs/UprYRjYJnfRebggt5bxHTS+4Noj8sBiu1FD0u4=",
   "Source": "OrderBookAPI",
   "BasePath": "_content/OrderBookAPI",
   "Mode": "Default",
@@ -16,63 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\ALLAN.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/ALLAN.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ALLAN.png"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\ArrigPer.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/ArrigPer.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ArrigPer.png"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Emne den fede.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Emne den fede.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Emne den fede.png"
-    },
     {
       "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Emne den grusomme.png",
       "SourceId": "OrderBookAPI",
@@ -93,12 +36,12 @@
       "OriginalItemSpec": "wwwroot\\images\\Emne den grusomme.png"
     },
     {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\FirkantManden.png",
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\KugleringMedGuldkugle.jpg",
       "SourceId": "OrderBookAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
       "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/FirkantManden.png",
+      "RelativePath": "images/KugleringMedGuldkugle.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +52,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FirkantManden.png"
+      "OriginalItemSpec": "wwwroot\\images\\KugleringMedGuldkugle.jpg"
     },
     {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Glade svin.png",
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\KuglerMedGuld.jpg",
       "SourceId": "OrderBookAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
       "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Glade svin.png",
+      "RelativePath": "images/KuglerMedGuld.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Glade svin.png"
+      "OriginalItemSpec": "wwwroot\\images\\KuglerMedGuld.jpg"
     },
     {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\LillePer.png",
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Laurtiz YoungBoy.png",
       "SourceId": "OrderBookAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
       "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/LillePer.png",
+      "RelativePath": "images/Laurtiz YoungBoy.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\LillePer.png"
+      "OriginalItemSpec": "wwwroot\\images\\Laurtiz YoungBoy.png"
     },
     {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\MIn ko.png",
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\RingMedFirkantetRadiamant.jpg",
       "SourceId": "OrderBookAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
       "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/MIn ko.png",
+      "RelativePath": "images/RingMedFirkantetRadiamant.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\MIn ko.png"
+      "OriginalItemSpec": "wwwroot\\images\\RingMedFirkantetRadiamant.jpg"
     },
     {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\mink.png",
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Skaleresmykker.jpg",
       "SourceId": "OrderBookAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
       "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/mink.png",
+      "RelativePath": "images/Skaleresmykker.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mink.png"
+      "OriginalItemSpec": "wwwroot\\images\\Skaleresmykker.jpg"
     },
     {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\MInken - Kopi.png",
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\SkaleSomrehnger.jpg",
       "SourceId": "OrderBookAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
       "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/MInken - Kopi.png",
+      "RelativePath": "images/SkaleSomrehnger.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,45 +147,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\MInken - Kopi.png"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\MInken.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/MInken.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\MInken.png"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Moderen.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Moderen.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Moderen.png"
+      "OriginalItemSpec": "wwwroot\\images\\SkaleSomrehnger.jpg"
     },
     {
       "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Skuffet 3.0.jpg",
@@ -264,12 +169,12 @@
       "OriginalItemSpec": "wwwroot\\images\\Skuffet 3.0.jpg"
     },
     {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Syg.png",
+      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Tonni.png",
       "SourceId": "OrderBookAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
       "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Syg.png",
+      "RelativePath": "images/Tonni.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,26 +185,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Syg.png"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Ulvor naked.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Ulvor naked.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Ulvor naked.png"
+      "OriginalItemSpec": "wwwroot\\images\\Tonni.png"
     }
   ]
 }

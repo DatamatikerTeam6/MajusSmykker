@@ -21,13 +21,13 @@ namespace OrderBookAPI.Models
 
         [StringLength(500, ErrorMessage = "Customer note cannot be longer than 500 characters.")]
         // Opdateret RegularExpression til at tillade æ, ø og å
-        [RegularExpression(@"^[a-zA-Z0-9\sæøåÆØÅ]*$", ErrorMessage = "Customer note cannot contain special characters.")]
+        [RegularExpression(@"^[a-zA-Z0-9\sæøåÆØÅ:]*$", ErrorMessage = "Customer note cannot contain special characters.")]
         public string CustomerNote { get; set; }
 
         [Required(ErrorMessage = "Customer name is required.")]
         [StringLength(100, ErrorMessage = "Customer name cannot be longer than 100 characters.")]
         // Opdateret RegularExpression til at tillade æ, ø og å
-        [RegularExpression(@"^[a-zA-Z0-9\sæøåÆØÅ]*$", ErrorMessage = "Customer name cannot contain special characters.")]
+        [RegularExpression(@"^[a-zA-Z0-9\sæøåÆØÅ:]*$", ErrorMessage = "Customer name cannot contain special characters.")]
         public string NameCustomer { get; set; }
 
 

@@ -1,64 +1,40 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\ALLAN.png",
-      "PackagePath": "staticwebassets\\images\\ALLAN.png"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\ArrigPer.png",
-      "PackagePath": "staticwebassets\\images\\ArrigPer.png"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Emne den fede.png",
-      "PackagePath": "staticwebassets\\images\\Emne den fede.png"
-    },
-    {
       "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Emne den grusomme.png",
       "PackagePath": "staticwebassets\\images\\Emne den grusomme.png"
     },
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\FirkantManden.png",
-      "PackagePath": "staticwebassets\\images\\FirkantManden.png"
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\KuglerMedGuld.jpg",
+      "PackagePath": "staticwebassets\\images\\KuglerMedGuld.jpg"
     },
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Glade svin.png",
-      "PackagePath": "staticwebassets\\images\\Glade svin.png"
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\KugleringMedGuldkugle.jpg",
+      "PackagePath": "staticwebassets\\images\\KugleringMedGuldkugle.jpg"
     },
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\LillePer.png",
-      "PackagePath": "staticwebassets\\images\\LillePer.png"
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Laurtiz YoungBoy.png",
+      "PackagePath": "staticwebassets\\images\\Laurtiz YoungBoy.png"
     },
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\MIn ko.png",
-      "PackagePath": "staticwebassets\\images\\MIn ko.png"
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\RingMedFirkantetRadiamant.jpg",
+      "PackagePath": "staticwebassets\\images\\RingMedFirkantetRadiamant.jpg"
     },
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\MInken - Kopi.png",
-      "PackagePath": "staticwebassets\\images\\MInken - Kopi.png"
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\SkaleSomrehnger.jpg",
+      "PackagePath": "staticwebassets\\images\\SkaleSomrehnger.jpg"
     },
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\MInken.png",
-      "PackagePath": "staticwebassets\\images\\MInken.png"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Moderen.png",
-      "PackagePath": "staticwebassets\\images\\Moderen.png"
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Skaleresmykker.jpg",
+      "PackagePath": "staticwebassets\\images\\Skaleresmykker.jpg"
     },
     {
       "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Skuffet 3.0.jpg",
       "PackagePath": "staticwebassets\\images\\Skuffet 3.0.jpg"
     },
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Syg.png",
-      "PackagePath": "staticwebassets\\images\\Syg.png"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Ulvor naked.png",
-      "PackagePath": "staticwebassets\\images\\Ulvor naked.png"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\mink.png",
-      "PackagePath": "staticwebassets\\images\\mink.png"
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Tonni.png",
+      "PackagePath": "staticwebassets\\images\\Tonni.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OrderBookAPI.Microsoft.AspNetCore.StaticWebAssets.props",

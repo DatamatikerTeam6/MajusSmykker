@@ -30,8 +30,10 @@ namespace OrderBookAPI
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            // Registrer EncodingService som en singleton
-            builder.Services.AddSingleton<EncodingService>();
+            // Register EncodingService 
+            builder.Services.AddTransient<EncodingService>();
+            // Register SanitizeService 
+            builder.Services.AddTransient<SanitizeService>();
 
             // Add CORS
             builder.Services.AddCors(options =>

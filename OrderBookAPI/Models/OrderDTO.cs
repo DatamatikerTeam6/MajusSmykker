@@ -12,7 +12,7 @@ namespace OrderBookAPI.Models
         [JsonPropertyName("name")]
         [Required(ErrorMessage = "Name is required.")]
         [StringLength(100, ErrorMessage = "Name cannot be longer than 100 characters.")]
-        [RegularExpression(@"^[a-zA-Z0-9\s]*$", ErrorMessage = "Name cannot contain special characters.")]
+        [RegularExpression(@"^[a-zA-Z0-9\sæøåÆØÅ:]*$", ErrorMessage = "Name cannot contain special characters.")]
         public string Name { get; set; }
 
         [JsonPropertyName("type")]
@@ -35,7 +35,7 @@ namespace OrderBookAPI.Models
 
         [JsonPropertyName("note")]
         [StringLength(500, ErrorMessage = "Note cannot be longer than 500 characters.")]
-        [RegularExpression(@"^[a-zA-Z0-9\s]*$", ErrorMessage = "Note cannot contain special characters.")]
+        [RegularExpression(@"^[a-zA-Z0-9\sæøåÆØÅ:,.]*$", ErrorMessage = "Note cannot contain special characters.")]
         public string Note { get; set; }
 
         [JsonPropertyName("pickupplace")]

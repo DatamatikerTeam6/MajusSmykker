@@ -12,7 +12,7 @@ using OrderBookAPI.Data;
 namespace OrderBookAPI.Migrations
 {
     [DbContext(typeof(OrderBookDBContext))]
-    [Migration("20241119084213_mink")]
+    [Migration("20241122090641_mink")]
     partial class mink
     {
         /// <inheritdoc />
@@ -275,7 +275,7 @@ namespace OrderBookAPI.Migrations
                     b.Property<DateTime>("DeliveryDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<TimeOnly>("DeliveryTime")
+                    b.Property<TimeSpan?>("DeliveryTime")
                         .HasColumnType("time");
 
                     b.Property<string>("Image")
@@ -317,6 +317,22 @@ namespace OrderBookAPI.Migrations
                     b.HasIndex("CustomerID");
 
                     b.ToTable("Order", (string)null);
+                });
+
+            modelBuilder.Entity("OrderBookAPI.Models.Review", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("Star")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

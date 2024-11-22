@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using OrderBookAPI.Data;
 using OrderBookAPI.Models;
 using OrderBookAPI.Services;
+using System.Web;
 
 namespace OrderBookAPI.Controllers
 {
@@ -15,11 +16,13 @@ namespace OrderBookAPI.Controllers
 
         private readonly OrderBookDBContext _context;
         private readonly EncodingService _encodingService;
+        private readonly SanitizeService _sanitizeService;
 
-        public CustomerController(OrderBookDBContext context, EncodingService encodingService)
+        public CustomerController(OrderBookDBContext context, EncodingService encodingService, SanitizeService sanitizeService)
         {
             _context = context;
             _encodingService = encodingService;
+            _sanitizeService = sanitizeService;
         }
 
         [HttpPost]
@@ -30,10 +33,10 @@ namespace OrderBookAPI.Controllers
                 var Customer = new Customer
                 {                  
                     TelephoneNumber = customerDTO.TelephoneNumber,
-                    Address = customerDTO.Address,
-                    Email = customerDTO.Email,
-                    Note = customerDTO.CustomerNote,
-                    NameCustomer = customerDTO.NameCustomer                                     
+                    Address = _encodingService.CustomUrlEncode((customerDTO.Address)),
+                    Email = _encodingService.CustomUrlEncode((customerDTO.Email)),
+                    Note = _encodingService.CustomUrlEncode((customerDTO.CustomerNote)),
+                    NameCustomer = _encodingService.CustomUrlEncode((customerDTO.NameCustomer))                                  
                 };
                 _context.Customers.Add(Customer);
                 await _context.SaveChangesAsync();
@@ -57,46 +60,47 @@ namespace OrderBookAPI.Controllers
         }
               
 
-        // New endpoint to get all orders
         [HttpGet("GetCustomers")]
-        public async Task<ActionResult<IEnumerable<OrderDTO>>> GetCustomers()
+        public async Task<ActionResult<IEnumerable<CustomerDTO>>> GetCustomers()
         {
-            // Create a new HtmlSanitizer instance
-            var sanitizer = new HtmlSanitizer();
+        // Fetch raw customers from the database
+        var rawCustomers = await _context.Customers.ToListAsync();
 
-            var customers = await _context.Customers
-                .Select(customer => new CustomerDTO
-                {
-                    TelephoneNumber = customer.TelephoneNumber,
-                    Address = _encodingService.HtmlEncode(customer.Address),
-                    Email = _encodingService.HtmlEncode(customer.Email),
-                    CustomerNote = _encodingService.HtmlEncode(customer.Note),
-                    NameCustomer = _encodingService.HtmlEncode(customer.NameCustomer),
-                    CustomerID = customer.CustomerID
-                })
-                .ToListAsync();           
+        // Process and sanitize the data after fetching it
+        var customers = rawCustomers
+        .Select(customer => new CustomerDTO
+        {
+            TelephoneNumber = customer.TelephoneNumber,
+            Address = _sanitizeService.SanitizeHtml(HttpUtility.HtmlDecode(customer.Address)),
+            Email = _sanitizeService.SanitizeHtml(HttpUtility.HtmlDecode(customer.Email)),
+            CustomerNote = _sanitizeService.SanitizeHtml(HttpUtility.HtmlDecode(customer.Note)),
+            NameCustomer = _sanitizeService.SanitizeHtml(HttpUtility.HtmlDecode(customer.NameCustomer)),
+            CustomerID = customer.CustomerID
+        })
+        .ToList();
 
-            return Ok(customers);
+        return Ok(customers);
         }
+
 
         [HttpGet("GetCustomerByName")]
         public async Task<ActionResult<IEnumerable<OrderDTO>>> GetCustomerByName(string name)
         {
-            // Create a new HtmlSanitizer instance
-            var sanitizer = new HtmlSanitizer();
-
-            var customers = await _context.Customers
+            // Fetch raw customers from the database
+            var rawCustomers = await _context.Customers.ToListAsync();
+            
+            var customers = rawCustomers
                 .Where(m => !string.IsNullOrEmpty(name) && m.NameCustomer.ToLower().Contains(name.ToLower()))  // Case-insensitive partial match
                 .Select(customer => new CustomerDTO
                 {
                     TelephoneNumber = customer.TelephoneNumber,
-                    Address = _encodingService.HtmlEncode(customer.Address),
-                    Email = _encodingService.HtmlEncode(customer.Email),
-                    CustomerNote = _encodingService.HtmlEncode(customer.Note),
-                    NameCustomer = _encodingService.HtmlEncode(customer.NameCustomer),
+                    Address = _encodingService.HtmlDecode(customer.Address),
+                    Email = _encodingService.HtmlDecode(customer.Email),
+                    CustomerNote = _encodingService.HtmlDecode(customer.Note),
+                    NameCustomer = _encodingService.HtmlDecode(customer.NameCustomer),
                     CustomerID = customer.CustomerID
                 })
-                .ToListAsync();
+                .ToList();
 
             return Ok(customers);
         }
@@ -129,9 +133,7 @@ namespace OrderBookAPI.Controllers
         // New endpoint for updating customer
         [HttpPut("UpdateCustomer")]
         public async Task<IActionResult> UpdateCustomer(int id, [FromBody] CustomerDTO customerDTO)
-        {
-            
-
+        {            
             var customer = await _context.Customers.FirstOrDefaultAsync(o => o.CustomerID == id);
             if (customer == null)
             {
@@ -140,10 +142,10 @@ namespace OrderBookAPI.Controllers
 
             // Update customer details
             customer.TelephoneNumber = customerDTO.TelephoneNumber;
-            customer.Address = customerDTO.Address;
-            customer.Email = customerDTO.Email;
-            customer.Note = customerDTO.CustomerNote;
-            customer.NameCustomer = customerDTO.NameCustomer;            
+            customer.Address = _encodingService.CustomUrlDecode(customerDTO.Address);
+            customer.Email = _encodingService.CustomUrlDecode(customerDTO.Email);
+            customer.Note = _encodingService.CustomUrlDecode(customerDTO.CustomerNote);
+            customer.NameCustomer = _encodingService.CustomUrlDecode(customerDTO.NameCustomer);            
 
             // Save changes to the database
             try

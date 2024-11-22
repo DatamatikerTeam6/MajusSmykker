@@ -21,14 +21,16 @@ namespace OrderBookAPI.Controllers
         private readonly EncodingService _encodingService;
         private readonly string _imagesFolderPath;
         private readonly string _baseImagesFolderPath;
+        private readonly SanitizeService _sanitizeService;
 
-        public OrderController(OrderBookDBContext context, UserManager<ApplicationUser> userManager, EncodingService encodingService, IConfiguration configuration)  
+        public OrderController(OrderBookDBContext context, UserManager<ApplicationUser> userManager, EncodingService encodingService, IConfiguration configuration, SanitizeService sanitizeService)  
         { 
             _context = context;
             _userManager = userManager;
             _encodingService = encodingService;
             _imagesFolderPath = configuration["ImageSettings:ImagesFolderPath"];
             _baseImagesFolderPath = configuration["ImageSettings:BaseImagesFolderPath"];
+            _sanitizeService = sanitizeService;
         }
 
         [HttpPost("CreateOrder")]
@@ -65,12 +67,12 @@ namespace OrderBookAPI.Controllers
                 var order = new Order
                 {
                     Price = orderDTO.Price,
-                    nameOrder = _encodingService.HtmlEncode(orderDTO.Name),
+                    nameOrder = _encodingService.CustomUrlEncode(orderDTO.Name),
                     Type = orderDTO.Type,
                     DeliveryDate = orderDTO.DeliveryDate,
                     OrderDate = orderDTO.OrderDate,
                     Quantity = orderDTO.Quantity,
-                    Note = _encodingService.HtmlEncode(orderDTO.Note),
+                    Note = _encodingService.CustomUrlEncode(orderDTO.Note),
                     PickupPlace = orderDTO.PickupPlace,
                     PickupPlaceAsString = orderDTO.PickupPlace.ToString(),
                     Delivered = orderDTO.Delivered,
@@ -95,27 +97,27 @@ namespace OrderBookAPI.Controllers
         [HttpGet("GetOrders")]
         public async Task<ActionResult<IEnumerable<OrderDTO>>> GetOrders()
         {
-            // Create a new HtmlSanitizer instance
-            var sanitizer = new HtmlSanitizer();
+            // Fetch raw customers from the database
+            var rawOrders = await _context.Orders.ToListAsync();
 
-            var orders = await _context.Orders
+            var orders = rawOrders
                 .Select(order => new OrderDTO
                 {
                     Price = order.Price,
-                    Name = _encodingService.HtmlEncode(order.nameOrder),  // Sanitize nameOrder
+                    Name = _sanitizeService.SanitizeHtml(_encodingService.HtmlDecode(order.nameOrder)),  
                     Type = order.Type,
                     DeliveryDate = order.DeliveryDate,
-                    OrderDate = order.OrderDate,  // Corrected to use OrderDate, not DeliveryDate
+                    OrderDate = order.OrderDate, 
                     Quantity = order.Quantity,
-                    Note = _encodingService.HtmlEncode(order.Note),  // Sanitize Note
+                    Note = _sanitizeService.SanitizeHtml(order.Note),  
                     PickupPlace = order.PickupPlace,
                     Delivered = order.Delivered,
-                    Image = _encodingService.HtmlEncode(order.Image),  // Sanitize Image
+                    Image = order.Image,
                     CustomerID = order.CustomerID,
                     DeliveryTime = order.DeliveryTime,
                     OrderID = order.OrderID 
                 })
-                .ToListAsync();
+                .ToList();
 
             // Post-process the enum to get the name
             foreach (var order in orders)
@@ -130,27 +132,28 @@ namespace OrderBookAPI.Controllers
         [HttpGet("GetOrdersByName")]
         public async Task<ActionResult<IEnumerable<OrderDTO>>> GetOrdersByName(string name)
         {
-            // Create a new HtmlSanitizer instance
-            var sanitizer = new HtmlSanitizer();
+            // Fetch raw customers from the database
+            var rawOrders = await _context.Orders.ToListAsync();
+
 
             // Use Contains for partial match (case-insensitive)
-            var orders = await _context.Orders
+            var orders = rawOrders
                 .Where(m => !string.IsNullOrEmpty(name) && m.nameOrder.ToLower().Contains(name.ToLower()))  // Case-insensitive partial match
                 .Select(order => new OrderDTO
                 {
                     Price = order.Price,
-                    Name = _encodingService.HtmlEncode(order.nameOrder),  // Sanitize nameOrder
+                    Name = _sanitizeService.SanitizeHtml(HttpUtility.HtmlDecode(order.nameOrder)),  // Sanitize nameOrder
                     Type = order.Type,
                     DeliveryDate = order.DeliveryDate,
                     OrderDate = order.OrderDate,  // Corrected to use OrderDate, not DeliveryDate
                     Quantity = order.Quantity,
-                    Note = _encodingService.HtmlEncode(order.Note),  // Sanitize Note
+                    Note = _sanitizeService.SanitizeHtml(HttpUtility.HtmlDecode(order.Note)),  // Sanitize Note
                     PickupPlace = order.PickupPlace,
                     Delivered = order.Delivered,
-                    Image = _encodingService.HtmlEncode(order.Image),  // Sanitize Image
+                    Image = _sanitizeService.SanitizeHtml(HttpUtility.HtmlDecode(order.Image)),  // Sanitize Image
                     CustomerID = order.CustomerID
                 })
-                .ToListAsync();
+                .ToList();
 
             // Post-process the enum to get the name
             foreach (var order in orders)
@@ -162,17 +165,20 @@ namespace OrderBookAPI.Controllers
         }
 
 
-        // GET: Delete order
+        // Delete: Delete order
         [HttpDelete("DeleteOrder")]
         public async Task<IActionResult> DeleteOrder(string? name)
         {
-            if (name == null)
+            var decodedName = HttpUtility.UrlDecode(name);
+            var encodedName = HttpUtility.HtmlEncode(decodedName);
+
+            if (encodedName == null)
             {
                 return NotFound();
             }
 
             var order = await _context.Orders
-                .FirstOrDefaultAsync(m => m.nameOrder == name);
+                .FirstOrDefaultAsync(m => m.nameOrder == encodedName);
             
             
             if (order == null)
@@ -230,12 +236,12 @@ namespace OrderBookAPI.Controllers
 
             // Update order details
             order.Price = orderDTO.Price;
-            order.nameOrder = _encodingService.HtmlEncode(orderDTO.Name);
+            order.nameOrder = _encodingService.CustomUrlEncode(orderDTO.Name);
             order.Type = orderDTO.Type;
             order.DeliveryDate = orderDTO.DeliveryDate;
             order.OrderDate = orderDTO.OrderDate;
             order.Quantity = orderDTO.Quantity;
-            order.Note = _encodingService.HtmlEncode(orderDTO.Note);
+            order.Note = _encodingService.CustomUrlEncode(orderDTO.Note);
             order.PickupPlace = orderDTO.PickupPlace;
             order.PickupPlaceAsString = orderDTO.PickupPlace.ToString();
             order.Delivered = orderDTO.Delivered;
