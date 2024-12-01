@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9oMs/UprYRjYJnfRebggt5bxHTS+4Noj8sBiu1FD0u4=",
+  "Hash": "Y3TQIUlUi5f0Qkhrr+1Ql+3keqlcFnfa3UcCvZSX4bc=",
   "Source": "OrderBookAPI",
   "BasePath": "_content/OrderBookAPI",
   "Mode": "Default",
@@ -16,25 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Emne den grusomme.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Emne den grusomme.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Emne den grusomme.png"
-    },
     {
       "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\KugleringMedGuldkugle.jpg",
       "SourceId": "OrderBookAPI",
@@ -72,25 +53,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\KuglerMedGuld.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Laurtiz YoungBoy.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Laurtiz YoungBoy.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Laurtiz YoungBoy.png"
     },
     {
       "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\RingMedFirkantetRadiamant.jpg",
@@ -148,44 +110,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\SkaleSomrehnger.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Skuffet 3.0.jpg",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Skuffet 3.0.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Skuffet 3.0.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Tonni.png",
-      "SourceId": "OrderBookAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\",
-      "BasePath": "_content/OrderBookAPI",
-      "RelativePath": "images/Tonni.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Tonni.png"
     }
   ]
 }

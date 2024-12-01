@@ -1,20 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Emne den grusomme.png",
-      "PackagePath": "staticwebassets\\images\\Emne den grusomme.png"
-    },
-    {
       "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\KuglerMedGuld.jpg",
       "PackagePath": "staticwebassets\\images\\KuglerMedGuld.jpg"
     },
     {
       "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\KugleringMedGuldkugle.jpg",
       "PackagePath": "staticwebassets\\images\\KugleringMedGuldkugle.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Laurtiz YoungBoy.png",
-      "PackagePath": "staticwebassets\\images\\Laurtiz YoungBoy.png"
     },
     {
       "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\RingMedFirkantetRadiamant.jpg",
@@ -27,14 +19,6 @@
     {
       "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Skaleresmykker.jpg",
       "PackagePath": "staticwebassets\\images\\Skaleresmykker.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Skuffet 3.0.jpg",
-      "PackagePath": "staticwebassets\\images\\Skuffet 3.0.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\MajusSmykker\\OrderBookAPI\\wwwroot\\images\\Tonni.png",
-      "PackagePath": "staticwebassets\\images\\Tonni.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OrderBookAPI.Microsoft.AspNetCore.StaticWebAssets.props",

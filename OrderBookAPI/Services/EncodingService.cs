@@ -18,6 +18,7 @@ namespace OrderBookAPI.Services
             encodedInput = encodedInput.Replace("%u00f8", "ø");
             encodedInput = encodedInput.Replace("%u00d8", "Ø");
             encodedInput = encodedInput.Replace("%2c", ",");
+            encodedInput = encodedInput.Replace("%40", "@");
             return encodedInput;
         }
 
